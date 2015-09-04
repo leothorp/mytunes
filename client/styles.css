@@ -1,11 +1,28 @@
 
-body {
-  background-color: white;
+html, body {
+background: radial-gradient(#FFFFFF, #3895DD);
+background-repeat: no-repeat;
+height: 100%;
+vertical-align: middle;
 }
+
+
 .app {
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+  color: black;
+  box-shadow: 3px 3px 2px;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#9E9CA5, #504B4D);
 }
